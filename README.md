@@ -23,7 +23,7 @@ Cache tagowany jest tagiem `buildkit`, gdyż obraz z cachem nie jest wersją apl
 
 ## 3.Dodane do repozytorium secrety
 
-[!img](secrets.png)
+[!img](img/secrets.png)
 
 ## 4.Struktura opracowanego łańcucha znaków
 
