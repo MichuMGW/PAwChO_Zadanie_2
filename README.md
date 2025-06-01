@@ -21,7 +21,11 @@ Przyjęto konwencję tagów vX.Y.Z, zgodnie z zasadami semver z racji, iż jest 
 
 Cache tagowany jest tagiem `buildkit`, gdyż obraz z cachem nie jest wersją aplikacji, a zasobem pomocniczym, który nie musi być wersjonowany jak aplikacja.
 
-## 3.Struktura opracowanego łańcucha znaków
+## 3.Dodane do repozytorium secrety
+
+[!img](secrets.png)
+
+## 4.Struktura opracowanego łańcucha znaków
 
 ### Główna struktura
 
@@ -133,7 +137,7 @@ jobs:
   run: echo "High or Critical vulnerabilities found. Failing build." && exit 1
 ```
 
-## 4.Potwierdzenie działania przygotowanego łańcucha znaków
+## 5.Potwierdzenie działania przygotowanego łańcucha znaków
 
 - Przechowywanie danych cache w repozytorium DockerHub:
 
