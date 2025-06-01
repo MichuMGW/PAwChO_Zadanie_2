@@ -139,19 +139,19 @@ jobs:
 
 ## 5.Potwierdzenie działania przygotowanego łańcucha znaków
 
-- Przechowywanie danych cache w repozytorium DockerHub:
-
+### Przechowywanie danych cache w repozytorium DockerHub:
+  
 ![img](img/dockerhub.png)
-
-- Przebiegi workflow'ów:
+---
+### Przebiegi workflow'ów:
 
 ![img](img/actions1.png)
-
-- Przebieg ostatniego workflow'a:
+---
+### Przebieg ostatniego workflow'a:
 
 ![img](img/actions2.png)
-
-- Utworzone obrazy na ghcr.io:
+---
+### Utworzone obrazy na ghcr.io:
 
 ![img](img/ghcr.png)
  
