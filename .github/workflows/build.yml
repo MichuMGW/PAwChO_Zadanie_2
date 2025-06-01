@@ -59,7 +59,7 @@ jobs:
           image-ref: ghcr.io/${{ secrets.GH_USERNAME }}/pawcho:${{ steps.extract_tag.outputs.VERSION }}
           ignore-unfixed: true
           severity: CRITICAL,HIGH
-          ignore-policy: .trivyignore.yml
+          ignoreFile: .trivyignore
           format: table
           exit-code: 1
 
