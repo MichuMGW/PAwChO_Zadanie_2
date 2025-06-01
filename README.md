@@ -23,7 +23,7 @@ Cache tagowany jest tagiem `buildkit`, gdyż obraz z cachem nie jest wersją apl
 
 ## 3.Dodane do repozytorium secrety
 
-[!img](img/secrets.png)
+![img](img/secrets.png)
 
 ## 4.Struktura opracowanego łańcucha znaków
 
@@ -141,18 +141,18 @@ jobs:
 
 - Przechowywanie danych cache w repozytorium DockerHub:
 
-[!img](img/dockerhub.png)
+![img](img/dockerhub.png)
 
 - Przebiegi workflow'ów:
 
-[!img](img/actions1.png)
+![img](img/actions1.png)
 
 - Przebieg ostatniego workflow'a:
 
-[!img](img/actions2.png)
+![img](img/actions2.png)
 
 - Utworzone obrazy na ghcr.io:
 
-[!img](img/ghcr.png)
+![img](img/ghcr.png)
  
 
